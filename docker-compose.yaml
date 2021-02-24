@@ -2,10 +2,6 @@ version: "3.0"
 services:
      app:
        build: ./
-       environment:
-               - APP_SERVICE=123
-               - Name=shoble
-               - class=ipsr  
        ports:
                - 8080:8082 
        volumes:
